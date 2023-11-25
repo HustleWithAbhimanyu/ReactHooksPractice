@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import StateHook from './UseState/StateHook'
 import StateHookText from './UseState/StateHookText'
-import ReducerPractice from './assets/Reducer/Reducer'
+import ReducerPractice from './Reducer/Reducer'
 
 function App() {
   const [count, setCount] = useState(0)
