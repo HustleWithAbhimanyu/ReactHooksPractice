@@ -5,6 +5,7 @@ import './App.css'
 import StateHook from './UseState/StateHook'
 import StateHookText from './UseState/StateHookText'
 import ReducerPractice from './Reducer/Reducer'
+import EffectPractice from './Effect/EffectPractice'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,8 +14,9 @@ function App() {
     <>
       
       {/* <StateHook/>
-      <StateHookText/> */}
-      <ReducerPractice/>
+      <StateHookText/> 
+      <ReducerPractice/>*/}
+      <EffectPractice/>
     </>
   )
 }
