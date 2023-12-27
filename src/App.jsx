@@ -6,6 +6,8 @@ import StateHook from './UseState/StateHook'
 import StateHookText from './UseState/StateHookText'
 import ReducerPractice from './Reducer/Reducer'
 import EffectPractice from './Effect/EffectPractice'
+import RefHook from "./RefHook/RefHook"
+
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -13,10 +15,11 @@ function App() {
   return (
     <>
       
-      <StateHook/>
+      {/* <StateHook/> */}
        {/* <StateHookText/>   */}
       {/* <ReducerPractice/>  */}
       {/* <EffectPractice/> */}
+      <RefHook/>
     </>
   )
 }
