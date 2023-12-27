@@ -3,16 +3,18 @@ import React, { useReducer } from "react";
 const reducer = (state, action) => {
   switch (action.type) {
     case "INCREMENT":
-      return { count: state.count + 1, showText: state.showText };
+      return { count: state.count + 1, showText: (state.count % 2 == 0)?'Even' :'ODD' };
     case "toggleShowText":
-      return { count: state.count, showText: !state.showText };
+      return { count: state.count, showText: (state.count % 2 == 0)?'Even' :'ODD' };
     default:
       return state;
   }
 };
 
+
+
 const ReducerPractice = () => {
-  const [state, dispatch] = useReducer(reducer, { count: 0, showText: true });
+  const [state, dispatch] = useReducer(reducer, { count: 0, showText: 'EVEN' });
 
   return (
     <div>
@@ -26,7 +28,7 @@ const ReducerPractice = () => {
         Click Here
       </button>
 
-      {state.showText && <p>This is a text</p>}
+      {state.showText && <p>{state.showText}</p>}
     </div>
   );
 };

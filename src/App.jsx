@@ -8,15 +8,15 @@ import ReducerPractice from './Reducer/Reducer'
 import EffectPractice from './Effect/EffectPractice'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <>
       
-      {/* <StateHook/>
-      <StateHookText/> 
-      <ReducerPractice/>*/}
-      <EffectPractice/>
+      {/* <StateHook/> */}
+       {/* <StateHookText/>   */}
+      <ReducerPractice/> 
+      {/* <EffectPractice/> */}
     </>
   )
 }
