@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       
-      {/* <StateHook/> */}
+      <StateHook/>
        {/* <StateHookText/>   */}
-      <ReducerPractice/> 
+      {/* <ReducerPractice/>  */}
       {/* <EffectPractice/> */}
     </>
   )
