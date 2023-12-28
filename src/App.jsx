@@ -8,6 +8,7 @@ import ReducerPractice from './Reducer/Reducer'
 import EffectPractice from './Effect/EffectPractice'
 import RefHook from "./RefHook/RefHook"
 import LayoutEffect from './LayoutEffect/LayoutEffect'
+import MainContainer from './ContextAPI/mainContainer'
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <ReducerPractice/>  */}
       {/* <EffectPractice/> */}
       {/* <RefHook/> */}
-      <LayoutEffect/>
+      {/* <LayoutEffect/> */}
+      <MainContainer/>
     </>
   )
 }
