@@ -7,6 +7,7 @@ import StateHookText from './UseState/StateHookText'
 import ReducerPractice from './Reducer/Reducer'
 import EffectPractice from './Effect/EffectPractice'
 import RefHook from "./RefHook/RefHook"
+import LayoutEffect from './LayoutEffect/LayoutEffect'
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
        {/* <StateHookText/>   */}
       {/* <ReducerPractice/>  */}
       {/* <EffectPractice/> */}
-      <RefHook/>
+      {/* <RefHook/> */}
+      <LayoutEffect/>
     </>
   )
 }
